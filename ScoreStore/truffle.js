@@ -19,6 +19,12 @@ module.exports = {
       port: 8545,
       gas: 1828127,
       network_id: "*" // Match any network id
+    },
+    production: {
+      host: "blch62-dns-reg1.eastus.cloudapp.azure.com",
+      port: 8545,
+      gas: 5000000,
+      network_id: "*" // Match any network id
     }
   }
 };
